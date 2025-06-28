@@ -36,10 +36,10 @@ const Navbar = () => {
         onClick={() => setisopen(!isopen)}
         className='md:hidden absolute top-6 right-6 w-6 h-6 cursor-pointer'/>
 
-          <Link onClick={() =>{ scrollTo(0,0), setisopen(false)}}  to='/movies' >Movies</Link>
-          <Link onClick={() =>{ scrollTo(0,0), setisopen(false)}}  to='/'>Theaters</Link>
-          <Link onClick={() =>{ scrollTo(0,0), setisopen(false)}}  to='/'>Releases</Link>
-          <Link onClick={() =>{ scrollTo(0,0), setisopen(false)}}  to='/favorite'>Favorites</Link>
+          <Link onClick={() =>{ scrollTo(0,0); setisopen(false)}}  to='/movies' >Movies</Link>
+          <Link onClick={() =>{ scrollTo(0,0); setisopen(false)}}  to='/'>Theaters</Link>
+          <Link onClick={() =>{ scrollTo(0,0); setisopen(false)}}  to='/'>Releases</Link>
+          <Link onClick={() =>{ scrollTo(0,0); setisopen(false)}}  to='/favorite'>Favorites</Link>
 
         
       </div>
