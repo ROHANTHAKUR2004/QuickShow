@@ -62,7 +62,7 @@ const MyBookings = () => {
             </div>
             
           </div>
-
+          {/* todo to add pay funcinolitu */}
           <div className='flex flex-col md:items-center md:text-right justify-between p-4'>
                 
                 <div className='flex items-center gap-4'>
